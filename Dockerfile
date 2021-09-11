@@ -13,4 +13,6 @@ RUN apk --no-cache add \
 ENV JAVA_HOME="/usr/lib/jvm/default-jvm/"
 
 RUN pip install --upgrade pip && \
-    pip install tabula-py
+    pip install \
+    requests \
+    tabula-py
