@@ -14,5 +14,6 @@ ENV JAVA_HOME="/usr/lib/jvm/default-jvm/"
 
 RUN pip install --upgrade pip && \
     pip install \
+    pytest \
     requests \
     tabula-py
